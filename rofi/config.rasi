@@ -19,7 +19,7 @@ inputbar {
 * {
     separatorcolor: transparent;
     selected-normal-background: #ddd1a9; /* softer retro highlight */
-    normal-background: #f5efda;          /* match your bar beige */
+    normal-background: #f5efda;          /* match bar beige */
     alternate-normal-background: #f5efda;
     border-color: #000000;
     border-radius: 0px;   /* SHARP CORNERS (global) */
@@ -64,5 +64,5 @@ element-text {
     handle-color: #000000;
     handle-width: 4px;
     padding: 0;
-    border-radius: 0px;   /* even scrollbar becomes sharp */
+    border-radius: 0px;  
 }
