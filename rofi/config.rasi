@@ -1,0 +1,68 @@
+entry {
+    placeholder: "";
+    text-color: #000000;
+    padding: 8px 0 8px 8px;
+}
+
+configuration {
+    font: "Bitstream Vera Serif";
+    lines: 10;
+    fixed-num-lines: true;
+    padding: 10px;
+    modes: "drun,run,window,ssh";
+}
+
+inputbar {
+    children: [entry];
+}
+
+* {
+    separatorcolor: transparent;
+    selected-normal-background: #ddd1a9; /* softer retro highlight */
+    normal-background: #f5efda;          /* match your bar beige */
+    alternate-normal-background: #f5efda;
+    border-color: #000000;
+    border-radius: 0px;   /* SHARP CORNERS (global) */
+    border: 2px solid;
+}
+
+window {
+    border-radius: 0px;   /* remove rounding completely */
+    border: 3px solid;
+    background-color: #f5efda;
+    width: 30%;
+    padding: 0px;
+}
+
+mainbox {
+    border: 0px;
+    border-radius: 0px;   /* critical */
+}
+
+listview {
+    lines: 7;
+    border-radius: 0px;   /* prevents inner rounding */
+}
+
+element {
+    padding: 10px;
+    height: 50px;
+    border-radius: 0px;   /* removes rounded selection boxes */
+    children: [ element-text, element-icon ];
+}
+
+element selected {
+    background-color: #efe6c4;  /* subtle beige selection, not modern white */
+    text-color: #000000;
+}
+
+element-text {
+    text-color: #000000;
+}
+
+#scrollbar {
+    handle-color: #000000;
+    handle-width: 4px;
+    padding: 0;
+    border-radius: 0px;   /* even scrollbar becomes sharp */
+}
