@@ -1,0 +1,11 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 40,
+  "exclusive-zone": true,
+  "modules-left": ["sway/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["network", "pulseaudio"],
+  "font": "Iosevka 10",
+  "separator": " | "
+}

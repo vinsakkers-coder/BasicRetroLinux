@@ -1,0 +1,60 @@
+* {
+font-family: "Bitstream Vera Serif", monospace;
+font-size: 14px;
+border-radius: 0px;
+color: #000000;
+}
+
+/* Main bar — lighter, less yellow retro beige + flat background */
+window#waybar {
+    background: #f5efda;          /* softened beige (less yellow) */
+    border: 4px solid #000000;    /* thick black outline */
+
+    /* Single horizontal shine line (no gradient) */
+    box-shadow: inset 0 -1px 0 #fbf7e8;  /* slightly lighter than background */
+}
+
+/* Workspace container */
+#workspaces {
+margin: 4px;
+padding: 0;
+}
+
+/* Workspace squares — sharp, divided retro blocks */
+#workspaces button {
+background: #f8f3e2;          /* lighter button tone */
+color: #000000;
+border: 3px solid #000000;
+margin: 0;
+padding: 4px 12px;
+border-radius: 0px;
+box-shadow: none;
+}
+
+/* Subtle hover (still flat, not modern) */
+#workspaces button:hover {
+background: #efe6c4;
+}
+
+/* Active workspace — slight pressed look */
+#workspaces button.active {
+background: #e9e1c3;
+}
+
+/* Clock box */
+#clock {
+background: #f8f3e2;
+border: 3px solid #000000;
+padding: 4px 12px;
+margin: 4px;
+color: #000000;
+}
+
+/* Application title (far right) */
+#window {
+background: #f8f3e2;
+border: 3px solid #000000;
+padding: 4px 14px;
+margin: 4px;
+color: #000000;
+}
