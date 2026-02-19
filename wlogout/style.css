@@ -1,0 +1,63 @@
+* {
+    font-family: "Bitstream Vera Serif";
+    font-size: 18px;
+    color: #000000;
+}
+
+/* Background (transparent dialog style) */
+window {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Main container spacing */
+#layout {
+    padding: 20px;
+}
+
+/* Retro Macintosh-style buttons */
+button {
+    background-color: #f5efda;
+    background-image: none;
+    border-top: 7px solid #000000;
+    border-left: 7px solid #000000;
+    border-right: 7px solid #000000;
+    border-bottom: 7px solid #000000;
+    border-radius: 0px;
+    margin: 16px;
+    padding: 28px 40px; /* equal padding = visually centered text */
+    box-shadow: none;
+}
+
+/* Bigger title, no alignment properties */
+button label {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hover = slightly darker cream */
+button:hover {
+    background-color: #ddd1a9;
+}
+
+/* Pressed = classic inset look */
+button:active {
+    background-color: #d8d2b8;
+    border-top: 4px solid #000000;
+    border-left: 4px solid #000000;
+    border-right: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+}
+
+/* Text under icon (classic Mac stacked layout) */
+button label {
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+/* Center and enlarge the text safely */
+button label {
+    font-size: 52px;
+    font-weight: normal;
+}
