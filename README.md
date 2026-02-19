@@ -8,3 +8,6 @@ The wallpaper selector uses swww, change it by going into rofi/wallpaper-launche
 
 INSTALL:
 clone it by using:
+git clone https://github.com/vinsakkers-coder/BasicRetroLinux.git cd BasicRetroLinux
+and then run the install.sh inside of terminal using
+sh ./install.sh
